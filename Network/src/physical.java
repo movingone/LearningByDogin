@@ -15,15 +15,3 @@ class Packet {
     int data;
 
 }
-
-class network {
-
-}
-
-class transport {
-
-}
-
-class session {
-
-}
