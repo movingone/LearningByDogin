@@ -3,8 +3,8 @@ package Network.src;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-public class network extends Packet {
-    network(String header_str, Datalink datalink) {
+public class Network extends Packet {
+    Network(String header_str, Datalink datalink) {
         Version = header_str.substring(0, 4);
         Header_length = header_str.substring(4, 8);
         type_service = header_str.substring(8, 16);
