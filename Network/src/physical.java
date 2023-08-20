@@ -7,11 +7,3 @@ public class physical {
         this.bitstream = bitstream;
     }
 }
-
-
-
-class Packet {
-    int header;
-    int data;
-
-}

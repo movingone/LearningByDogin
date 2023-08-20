@@ -1,8 +1,8 @@
 package Network.src;
 
-public class datalink extends Frame {
+public class Datalink extends Frame {
 
-    datalink(int bitstream[]) {
+    Datalink(int bitstream[]) {
         data = new int[bitstream.length - 24];
         int index = 0;
         int hexa = 0;
